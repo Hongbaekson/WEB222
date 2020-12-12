@@ -1,0 +1,102 @@
+
+
+<!DOCTYPE html>
+<html lnag ="en"/>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hongback Son</title>
+    <link href="normalize1.css" rel="stylesheet" type="text/css"/>
+    <script src="registration.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+    
+</head>
+<body>
+        <div class="header" id="header">
+            <header>                
+                <img src="logo.png" alt="logo">
+                <h1>Shoes Shop In Toronto  </h1> 
+            </header>
+        
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href= "registration.html">Registration</a></li>
+                <li><a href= "https://www.gucci.com/ca/en/store/130-bloor-street-west" target="_blank">Gucci</a></li>
+                <li><a href= "https://www.nike.com/ca/en_gb/" target="_blank">Nike</a></li>
+                <li><a href= "https://www.balenciaga.com/ca/" target="_blank">Balenciaga</a></li>
+    
+    
+            </ul>
+        </nav>
+    
+        <section >
+            <h2>Registration</h2>
+            <div id="form">
+                    <form action="https://httpbin.org/post" method="Post" name="registration" onsubmit="return checkAll();">
+                        
+                        First Name: <input type="text" name="name" autofocus required/> <br/>
+                        Last Name: <input type="text" name="surname" required/><br/>
+                        <fieldset>
+                               <legend>Shipping Information</legend>
+                               
+                               Street Number: <input type="text" name="street" required/><br/>                              
+                               Street Name:<input type="text" name="street_name" required/><br/>
+                               Unit Number: <input type="text" name="unit"/><br/>
+                               City : <input type="text" name="city" required/><br/>
+                               Province:
+                                <select name="province" id="province">
+                                    <option value="Ontario">Ontario</option>
+                                    <option value="Alberta">Alberta</option>
+                                    <option value="British_Columbia">British Columbia</option>
+                                    <option value="Manitoba">Manitoba</option>
+                                    <option value="New_Brunswick">New Brunswick</option>
+                                    <option value="Nova Scotia">Nova Scotia</option>                                   
+                                    <option value="Prince_Edward_Island">Prince Edward Island</option>
+                                    <option value="Quebec">Quebec</option>                                  
+                                    <option value="Saskatchewan">Saskatchewan</option>
+                                         </select><br/>
+                               Postal Code: <input type="text" name="postal_code" pattern="[a-zA-Z][0-9][a-zA-Z][0-9][a-zA-Z][0-9]" 
+                               autofocus required title="Only Canadian format allowed (Letter Digit Letter Digit Letter Digit), for example C1A1A7" required/>
+
+                        </fieldset> <br/>
+
+                        Phone number :<input type="text" pattern="^\d{3}-\d{3}-\d{4}$" autofocus required title="XXX-XXX-XXXX, for example 123-456-7890" name="phone" required/><br/>
+                        Email: <input type="email" name="email" required/><br/>
+                        Username: <input type="text" name="username" required/><br/>
+                        Password: <input type="password" name="password" required /><br/>
+                        Retype Password: <input type="password" name="retype" required/><br/>
+
+                        <input type="hidden" name="lastName" id="lastName" value="Hongback Son" /><br/>
+                        <input type="hidden" name="studentId" id="studentId" value="133181164" /><br/>
+                       <div id="error"></div>   
+                     <input type="submit" value="Submit"/>
+                     <input type="reset" value="Clear"/>
+                     
+                    </form>
+
+            </div>
+    
+        </section>
+    
+        <aside>
+            <h2>Releasing Soon</h2>
+            <ul>
+                <li><img src="gucci.jpg"></li>
+                <li><b>Women's Ivory Leather Rhyton</b> <br>Oct 30th</li>
+                <li><img src="lo.jpg"></li>
+                <li><b>Balenciaga Speed Runner </b> <br>Oct 30th</li>
+            </ul>
+        </aside>
+    
+        <footer>
+            <p>Hongback Son<br>133181164</p>
+            
+        </footer>
+    
+        </div>
+    
+    </body>
+    </html>
+    

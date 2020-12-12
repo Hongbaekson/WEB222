@@ -1,0 +1,71 @@
+/* Place all of your CSS Code in this file */
+
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: Hongback Son Student ID: 133181164 Date: 2018-10-23 
+* 
+********************************************************************************/
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+/* Add a new font colour to the <body> element */
+body {
+  background: wheat;
+}
+
+/* Add a new background colour to the <nav> and <footer> elements */
+nav,
+footer {
+  background: yellowgreen;
+}
+
+/* Style the <header></header> element using at least 2 properties  */
+header {
+  border: 2px black solid;
+  padding: 5px;
+}
+
+/* Style the <h1 class="app-title"></h1> using at least 3 properties. One of these properties must be setting the font to a "web-font", available on the Google Fonts CDN */
+h1.app-title {
+  font-family: "Lato", sans-serif;
+  font-size: 12pt;
+  color: #1b0a0a;
+}
+
+/* Style the <div class="main-table-container"></div> using at least 3 properties, two of which must be to ensure that it has:  
+    - a maximum height value  
+    - a vertical scroll bar  
+*/
+.main-table-container {
+  max-height: 40vh;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+/* Add at least 4 style properties to the <th></th> elements inside the <table class="main-tabletop"></table> element. This will ensure that the top (stationary) row of our table looks distinctive */
+.main-table-top th {
+  border: 1px black solid;
+  color: #b46262;
+  font-size: 15pt;
+  font-family: "Lato", sans-serif;
+}
+
+/* Add at least 4 style properties to the <td></td> elements inside the <table class="maintable"></table> elemen */
+.main-table td {
+  border: 1px black solid;
+  color: #b46262;
+  font-size: 15pt;
+  font-family: "Lato", sans-serif;
+}
+
+/* Add at least 2 properties to all <span></span> elements that are used for the description of the pets */
+.main-table p span {
+  padding: 3px;
+  background: #ccc;
+}

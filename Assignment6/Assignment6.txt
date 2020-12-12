@@ -1,0 +1,2 @@
+To work on JavaScript coding with DOM
+to practice an AJAX call to a Web service 
